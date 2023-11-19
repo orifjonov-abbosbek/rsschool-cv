@@ -29,17 +29,16 @@ Enthusiastic and dedicated Junior Developer with a passion for learning and a st
 
 _This code just calculates factorial_
 
-````javascript
-  // Function to calculate factorial
-  const calculateFactorial = (n) => {
-    if (n === 0) {
-      return 1;
-    }
+```javascript
+// Function to calculate factorial
+const calculateFactorial = (n) => {
+  if (n === 0) {
+    return 1;
+  }
 
-    return n * calculateFactorial(n - 1);
-  };
-
-  ```
+  return n * calculateFactorial(n - 1);
+};
+```
 
 - [GitHub Repository - Project 1](https://github.com/orifjonov-abbosbek/ex-6.git)
 - [GitHub Repository - Project 2](https://github.com/orifjonov-abbosbek/mod-me.git)
@@ -59,4 +58,6 @@ _This code just calculates factorial_
 
 - English (upper-intermediate)
 - Russian (intermediate)
-````
+
+
+```
