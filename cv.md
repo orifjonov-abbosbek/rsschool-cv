@@ -1,8 +1,6 @@
----
 #### **1. First Name, Last Name**
 
 Orifjonov Abbosbek
----
 
 ![Photo](./photo.jpg)
 
@@ -58,6 +56,3 @@ const calculateFactorial = (n) => {
 - English (upper-intermediate)
 - Russian (intermediate)
 
-```
-
-```
