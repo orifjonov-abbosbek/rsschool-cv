@@ -27,7 +27,8 @@ Enthusiastic and dedicated Junior Developer with a passion for learning and a st
 
 _This code just calculates factorial_
 
-```javascript
+```
+
 const calculateFactorial = (n) => {
   if (n === 0) {
     return 1;
@@ -35,6 +36,7 @@ const calculateFactorial = (n) => {
 
   return n * calculateFactorial(n - 1);
 };
+
 ```
 
 - [GitHub Repository - Project 1](https://github.com/orifjonov-abbosbek/ex-6.git)
