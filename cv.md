@@ -30,7 +30,6 @@ Enthusiastic and dedicated Junior Developer with a passion for learning and a st
 _This code just calculates factorial_
 
 ```javascript
-// Function to calculate factorial
 const calculateFactorial = (n) => {
   if (n === 0) {
     return 1;
@@ -59,5 +58,6 @@ const calculateFactorial = (n) => {
 - English (upper-intermediate)
 - Russian (intermediate)
 
+```
 
 ```
