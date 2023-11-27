@@ -196,7 +196,7 @@ body {
 /******************** Skills section start  ***************/
 
 .skill{
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .skill_title {
@@ -240,3 +240,98 @@ progress::-moz-progress-bar {
   background-color: #4a89dc;
   border-radius: 8px;
 }
+
+
+
+
+/***************  experience  section start */
+
+.main-timeline {
+  position: relative;
+}
+
+.main-timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #939597;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #939597;
+  border: 5px solid #f5df4d;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -12px;
+}
+
+
+.exp_title{
+  margin-left: 0.5rem;
+}
+
+
+/*************************  experience end  ******************************/
+
+
+
+/************************  education ************************************/
+
+
+
+.education_title{
+  margin-left: 20px;
+  margin-bottom: 1rem;
+}
+
