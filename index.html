@@ -5,116 +5,300 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orifjonov Abbosbek - Junior Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
 
-
     <header>
-        <h1>Orifjonov Abbosbek - Junior Developer</h1>
-        <nav>
-            <a href="#contact">Contact</a>
-            <a href="#summary">Summary</a>
-            <a href="#skills">Skills</a>
-            <a href="#code-examples">Code Examples</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#language">Language</a>
-        </nav>
+        <div class="container">
+
+            <div class="header_wrapper">
+
+                <h1 class="main_name">Orifjonov Abbosbek</h1>
+                <nav class="navbar">
+
+                    <ul class="nav_list">
+                        <li class="nav_list_item">
+                            <a class="nav_list_item_link" href="https://github.com/orifjonov-abbosbek"
+                                target="_blank"><img class="header_img" src="./assets/github.svg" alt=""></a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a class="nav_list_item_link" href="https://facebook.com" target="_blank"><img
+                                    class="header_img" src="./assets/facebook.svg" alt=""></a>
+                        </li>
+                        <li class="nav_list_item">
+                            <a class="nav_list_item_link" href="https://t.me/L1i9b9r9a" target="_blank"><img
+                                    class="header_img" src="./assets/telegram.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
+
     <main>
-        <section class="info">
-            <div class="info_wrapper">
-                <div class="img_box">
-                    <img class="imgage" src="./photo.jpg" alt="Photo">
-                </div>
-                <div class="">
-                    <h2> Orifjonov Abbosbek</h2>
-                    <p>Front-end Developer</p>
+
+        <!-- Hero section -->
+        <section class="hero">
+
+            <div class="container">
+
+                <div class="hero_wrapper">
+                    <div class="hero_content">
+                        <h2 class="hero_title">Orifjonov Abbosbek</h2>
+                        <p class="job_title">Front End Developer</p>
+                        <div class="button_box">
+                            <button class="download_btn" >Download CV</button>
+                            <button class="hire_btn">Hire me</button>
+                        </div>
+                    </div>
+
+                    <div class="img_box">
+                        <img class="avatar" src="./photo.jpg" alt="">
+                    </div>
 
                 </div>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>2. Contact Info</h2>
-            <ul>
-                <li>Email: <a href="mailto:evilzloy17@gmail.com"> evilzloy17@gmail.com</a></li>
-                <li>Telegram: <a href="https://www.linkedin.com/in/johndoe/">Orifjonov</a></li>
-                <li>GitHub: <a href="https://github.com/orifjonov-abbosbek">Orifjonov Abbosbek</a></li>
-            </ul>
-        </section>
 
-        <section id="summary">
-            <h2>3. Summary</h2>
-            <p class="summary_desc">Enthusiastic and dedicated Junior Developer with a passion for learning and a strong commitment to
-                continuous
-                improvement. Eager to contribute to a dynamic team and leverage programming skills to solve real-world
-                problems.
-            </p>
-        </section>
 
-        <section id="skills">
-            <h2>4. Skills</h2>
-            <ul>
-                <li>Programming Languages: JavaScript</li>
-                <li>UI Kit: MUI, tailwindcss, Bootstrap5</li>
-                <li>Frameworks: React</li>
-                <li>Version Control: Git</li>
-                <li>Tools: VS Code, Git Bash</li>
-                <li>Methodologies: Agile</li>
-            </ul>
-        </section>
 
-        <section id="code-examples">
-            <h2>5. Code Examples (LATEST)</h2>
-            <p>This code just calculates factorial</p>
-            <pre>
-        <code>
-        const calculateFactorial = (n) => {
-          if (n === 0) {
-            return 1;
-          }
-        
-          return n * calculateFactorial(n - 1);
-        };
-        </code>
-        </pre>
-            <ul>
-                <li><a href="https://github.com/orifjonov-abbosbek/ex-6.git">GitHub Repository - Project 1</a></li>
-                <li><a href="https://github.com/orifjonov-abbosbek/mod-me.git">GitHub Repository - Project 2</a></li>
-            </ul>
-        </section>
+        <!-- About section  -->
 
-        <section id="experience">
-            <h2>6. Experience</h2>
-            <ul>
-                <li>Coding experience at Colibri company in Tashkent. Building UI and working on new functionalities.
-                </li>
-                <li>Freelance Project - Web Development</li>
-                <li>Intern developer at iTransition from July to September 2023.</li>
-            </ul>
-        </section>
+        <section class="about">
+            <div class="container">
+                <div class="sss">
 
-        <section id="education">
-            <h2>7. Education</h2>
-            <ul>
-                <li>Foundation Developer course at Najot Ta'lim in Tashkent.</li>
-                <li>Front-end Bootcamp course at Najot Ta'lim in Tashkent.</li>
-            </ul>
-        </section>
 
-        <section id="language">
-            <h2>8. Language</h2>
-            <ul>
-                <li>English (upper-intermediate)</li>
-                <li>Russian (intermediate)</li>
-            </ul>
+                    <!-- About section -->
+
+
+                    <h2 class="about_me">About Me</h2>
+                    <div class="about_wrapper">
+                        <div class="content">
+
+                            <p class="about_desc">Passionate front-end developer with a
+                                keen eye for detail and a love
+                                for creating visually
+                                appealing and user-friendly websites. My journey in web development started with a
+                                fascination
+                                for transforming ideas
+                                into interactive digital experiences.</p>
+                        </div>
+                        <div class="contact_box">
+                            <ul class="contact_list">
+                                <li class="contact_list_item">
+                                    <p class="argument">Age</p>
+                                    <p class="value">24</p>
+                                </li>
+
+                                <li class="contact_list_item">
+                                    <p class="argument">Email</p>
+                                    <p class="value">
+                                        <a href="mailto:evilzloy17@gmail.com">
+
+                                            evilzloy17@gmail.com
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li class="contact_list_item">
+                                    <p class="argument">Phone</p>
+
+                                    <p class="value">
+                                        <a href="tel:+988911690599">
+
+                                            +998-91-169-05-99
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li class="contact_list_item">
+                                    <p class="argument">Address</p>
+                                    <address class="value">Uzbekistan, Tashkent</address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Skills section -->
+
+                    <div class="skill">
+                        <h2 class="skill_title">Professional Skills</h2>
+                        <div class="skill_wrapper">
+                            <div class="skill">
+
+                                <div class="skill_box">
+                                    <div class="">
+                                        <p>HTML</p>
+                                        <progress class="progresss" value="90" max="100"></progress>
+                                        <p>CSS</p>
+                                        <progress value="85" max="100"></progress>
+                                        <p>JavaScript</p>
+                                        <progress value="65" max="100"></progress>
+                                    </div>
+
+                                    <div class="">
+                                        <p>UI KIT's</p>
+                                        <progress class="progresss" value="90" max="100"></progress>
+                                        <p>REACT.JS</p>
+                                        <progress value="65" max="100"></progress>
+                                        <p>NEXT.JS</p>
+                                        <progress value="65" max="100"></progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Experience section -->
+
+                    <div class="experience">
+                        <div class="container">
+                            <div class="exp_wrapper">
+                                <h2 class="exp_title">Work Experience</h2>
+                                <div class="container py-5">
+                                    <div class="main-timeline">
+                                        <div class="timeline left">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3>2022</h3>
+                                                    <p class="mb-0">Colibri Team</p>
+                                                    <p>Front-end developer</p>
+
+                                                    <p>Building admin panel using REACT and UI kits for online
+                                                        restaurants and also courier panel for couriers.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline right">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3>2023</h3>
+                                                    <p class="mb-0">Tweast Food</p>
+                                                    <p>Front-end developer</p>
+                                                    <p>Building Admin panel for fast food </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline left">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3>2023</h3>
+                                                    <p class="mb-0">Digital Dream </p>
+                                                    <p>Front-end developer</p>
+
+                                                    <p>Building UI for CRM program for educational center. working with
+                                                        OTP verification and JWT tokens</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline right">
+                                            <div class="card">
+                                                <div class="card-body p-4">
+                                                    <h3>2023</h3>
+                                                    <p class="mb-0">iTransition</p>
+                                                    <p> Intern developer</p>
+                                                    <p>Training with world's best developers at iTransition company and
+                                                        get some experience on building UI and working on team </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="education">
+                        <h2 class="education_title">Education</h2>
+                        <div class="education_wrapper">
+
+                            <div class="education_timeline">
+                                <div class="event">
+                                    <div class="date">2022</div>
+                                    <div class="content">
+                                        <h3>Foundation Programming course</h3>
+                                        <p>Najot ta'lim , Tashkent</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education_timeline">
+                                <div class="event">
+                                    <div class="date">2023</div>
+                                    <div class="content">
+                                        <h3>Bootcamp Front-end course</h3>
+                                        <p>Najot ta'lim , Tashkent</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education_timeline">
+                                <div class="event">
+                                    <div class="date">2023</div>
+                                    <div class="content">
+                                        <h3>Intern Developer</h3>
+                                        <p>iTransition , online</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
+
+
+
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <h2>Orifjonov Abbosbek</h2>
+            <div class="link_box">
+
+                <a href="https://github.com/orifjonov-abbosbek" target="_blank">
+
+                    <img class="header_img" src="./assets/github.svg" alt="">
+                </a>
+                <a href="https://t.me/L1i9b9r9a" target="_blank">
+
+                    <img class="header_img" src="./assets/telegram.svg" alt="">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+
+                    <img class="header_img" src="./assets/facebook.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
+
+
+
+
+
+
+   
 </html>
