@@ -135,28 +135,33 @@ body {
 
 /****************** About section  *****************/
 
+.about {
+  border-bottom: none;
+}
 
 .about_wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 10rem;
-  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
   padding-bottom: 2rem;
+}
+
+.sss {
+  padding-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .about_me {
   color: #49505a;
+  margin-left: 20px;
   margin-bottom: 1rem;
-
 }
 
-
-
-
-.about_desc{
+.about_desc {
   width: 100%;
   font-family: "Roboto";
   max-width: 500px;
@@ -166,28 +171,72 @@ body {
   opacity: 0.6;
 }
 
-
-.contact_box{
-  margin-top: 3rem;
-}
-
-
-.contact_list{
+.contact_list {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
 }
 
-.contact_list_item{
+.contact_list_item {
   display: flex;
   column-gap: 5rem;
 }
 
-.argument{
+.argument {
   width: 50px;
   opacity: 0.7;
 }
 
-.value{
+.value {
   opacity: 0.7;
+}
+
+/******************** About section end   ******************/
+
+/******************** Skills section start  ***************/
+
+.skill{
+  padding-bottom: 5rem;
+}
+
+.skill_title {
+  color: #444b55;
+  margin-bottom: 2rem;
+  margin-left: 20px;
+}
+
+.skill_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.skill_box{
+  display: flex;
+  align-items: center;
+  column-gap: 15rem;
+}
+
+progress {
+  width: 300px;
+  height: 20px;
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: gray;
+  border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4a89dc;
+  border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #4a89dc;
+  border-radius: 8px;
 }
