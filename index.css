@@ -152,7 +152,9 @@ body {
 
 .sss {
   padding-top: 100px;
+  padding-bottom: 100px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
 }
 
 .about_me {
@@ -332,6 +334,35 @@ progress::-moz-progress-bar {
 
 .education_title{
   margin-left: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.education_wrapper{
+ padding-left: 20rem;
+  
 }
 
+.education_timeline {
+  border-left: 2px solid #4a89dc;
+  position: relative;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
+.event {
+  margin-bottom: 20px;
+}
+
+.date {
+  position: absolute;
+  left: -85px;
+  top: 0;
+  background-color: #4a89dc;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.content {
+  margin-left: 20px;
+}
